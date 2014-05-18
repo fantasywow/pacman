@@ -25,7 +25,7 @@ rss: /atom.xml   ## RSS address.
 #### Image
 imglogo:
   enable: false             ## display image logo true/false.
-  src: img/logo2.png        ## `.svg` and `.png` are recommended,please put image into the theme folder `/pacman/source/img`.
+  src: img/logo.png        ## `.svg` and `.png` are recommended,please put image into the theme folder `/pacman/source/img`.
 favicon: img/favicon.ico   ## size:32px*32px,`.ico` is recommended,please put image into the theme folder `/pacman/source/img`.     
 apple_icon: img/pacman.jpg ## size:114px*114px,please put image into the theme folder `/pacman/source/img`.
 
@@ -80,9 +80,9 @@ jiathis:
 
 #### Analytics
 google_analytics:
-  enable: false
-  id:   ## e.g. UA-1766729-8 your google analytics ID.
-  site: ## e.g. yangjian.me your google analytics site or set the value as auto.
+  enable: true
+  id: UA-51092894-1  ## e.g. UA-1766729-8 your google analytics ID.
+  site: www.luckyonecn.com ## e.g. yangjian.me your google analytics site or set the value as auto.
 ## You MUST upgrade to Universal Analytics first!
 ## https://developers.google.com/analytics/devguides/collection/upgrade/?hl=zh_CN
 
