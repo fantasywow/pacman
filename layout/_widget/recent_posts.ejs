@@ -1,6 +1,6 @@
 <% if (site.posts.length){ %>
-  <div class="widget-wrap">
-    <p class="asidetitle">最近文章</p>
+  <div class="recent_posts">
+    <p class="asidetitle"><a href="<%- config.root %>archives"><%= __('recent_posts') %></a></p>
       <ul>
         <% site.posts.sort('date', -1).limit(5).each(function(post){ %>
           <li>

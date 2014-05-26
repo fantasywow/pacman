@@ -11,7 +11,7 @@ menu:
 
 #### Widgets
 widgets: 
-##- recent_posts 
+- recent_posts 
 - archive
 - category
 - tag
@@ -71,7 +71,7 @@ author:
 #### Comment
 duoshuo: 
   enable: true  ## duoshuo.com
-  short_name: LucKy_one   ## duoshuo short name.
+  short_name: luckyonecn   ## duoshuo short name.
 
 #### Share button
 jiathis:
